@@ -13,7 +13,7 @@ font = pygame.font.Font(None, 50)
 Table_top=pygame.image.load('PNG/table.jpeg').convert()#convert_alpha for cards
 while True:
     for event in pygame.event.get():
-         if event.type() == pygame.QUIT:
+         if event.type == pygame.QUIT:
             pygame.quit()
             exit()
 #now inserting the picture in the game 
